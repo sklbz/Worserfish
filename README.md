@@ -84,15 +84,13 @@ Worserfish relies heavily on [Stockfish][https://github.com/official-stockfish/S
 project][lc0-data-link], made available under the [Open Database License][odbl-link] (ODbL).
 
 
-[authors-link]:       https://github.com/official-stockfish/Stockfish/blob/master/AUTHORS
 [build-link]:         https://github.com/official-stockfish/Stockfish/actions/workflows/stockfish.yml
 [commits-link]:       https://github.com/official-stockfish/Stockfish/commits/master
-[discord-link]:       https://discord.gg/GWDRS3kU6R
 [issue-link]:         https://github.com/official-stockfish/Stockfish/issues/new?assignees=&labels=&template=BUG-REPORT.yml
 [discussions-link]:   https://github.com/official-stockfish/Stockfish/discussions/new
 [fishtest-link]:      https://tests.stockfishchess.org/tests
 [guideline-link]:     https://github.com/official-stockfish/fishtest/wiki/Creating-my-first-test
-[license-link]:       https://github.com/official-stockfish/Stockfish/blob/master/Copying.txt
+[license-link]:       https://github.com/sklbz/Worserfish/blob/master/Copying.txt
 [programming-link]:   https://www.chessprogramming.org/Main_Page
 [programmingsf-link]: https://www.chessprogramming.org/Stockfish
 [readme-link]:        https://github.com/sklbz/Worserfish/blob/master/README.md
