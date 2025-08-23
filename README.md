@@ -4,7 +4,7 @@
 
   <h3>Stockfish</h3>
 
-  A free and strong UCI chess engine.
+  A free and strong UCI misère chess engine.
   <br>
   <strong>[Explore Stockfish docs »][wiki-link]</strong>
   <br>
@@ -31,9 +31,6 @@
 
 ## Overview
 
-[Stockfish][website-link] is a **free and strong UCI chess engine** derived from
-Glaurung 2.1 that analyzes chess positions and computes the optimal moves.
-
 Stockfish **does not include a graphical user interface** (GUI) that is required
 to display a chessboard and to make it easy to input moves. These GUIs are
 developed independently from Stockfish and are available online. **Read the
@@ -42,9 +39,15 @@ Stockfish with it.
 
 See also the Stockfish [documentation][wiki-usage-link] for further usage help.
 
+## How it works
+
+Worserfish is based on Stockfish, but tries to lose, assuming his opposent is as well.
+
+It will not just blunder easy mates, it will try to force selfmate.
+
 ## Files
 
-This distribution of Stockfish consists of the following files:
+This distribution of Worserfish consists of the following files:
 
   * [README.md][readme-link], the file you are currently reading.
 
@@ -63,34 +66,12 @@ This distribution of Stockfish consists of the following files:
 
 __See [Contributing Guide](CONTRIBUTING.md).__
 
-### Donating hardware
+## Compiling Worserfish
 
-Improving Stockfish requires a massive amount of testing. You can donate your
-hardware resources by installing the [Fishtest Worker][worker-link] and viewing
-the current tests on [Fishtest][fishtest-link].
-
-### Improving the code
-
-In the [chessprogramming wiki][programming-link], many techniques used in
-Stockfish are explained with a lot of background information.
-The [section on Stockfish][programmingsf-link] describes many features
-and techniques used by Stockfish. However, it is generic rather than
-focused on Stockfish's precise implementation.
-
-The engine testing is done on [Fishtest][fishtest-link].
-If you want to help improve Stockfish, please read this [guideline][guideline-link]
-first, where the basics of Stockfish development are explained.
-
-Discussions about Stockfish take place these days mainly in the Stockfish
-[Discord server][discord-link]. This is also the best place to ask questions
-about the codebase and how to improve it.
-
-## Compiling Stockfish
-
-Stockfish has support for 32 or 64-bit CPUs, certain hardware instructions,
+Worserfish has support for 32 or 64-bit CPUs, certain hardware instructions,
 big-endian machines such as Power PC, and other platforms.
 
-On Unix-like systems, it should be easy to compile Stockfish directly from the
+On Unix-like systems, it should be easy to compile Worserfish directly from the
 source code with the included Makefile in the folder `src`. In general, it is
 recommended to run `make help` to see a list of make targets with corresponding
 descriptions. An example suitable for most Intel and AMD chips:
@@ -100,13 +81,13 @@ cd src
 make -j profile-build
 ```
 
-Detailed compilation instructions for all platforms can be found in our
-[documentation][wiki-compile-link]. Our wiki also has information about
-the [UCI commands][wiki-uci-link] supported by Stockfish.
+Detailed compilation instructions for all platforms can be found in the Stockfish
+[documentation][wiki-compile-link]. Their wiki also has information about
+the [UCI commands][wiki-uci-link] supported by Worserfish.
 
 ## Terms of use
 
-Stockfish is free and distributed under the
+Worserfish is free and distributed under the
 [**GNU General Public License version 3**][license-link] (GPL v3). Essentially,
 this means you are free to do almost exactly what you want with the program,
 including distributing it among your friends, making it available for download
@@ -114,7 +95,7 @@ from your website, selling it (either by itself or as part of some bigger
 software package), or using it as the starting point for a software project of
 your own.
 
-The only real limitation is that whenever you distribute Stockfish in some way,
+The only real limitation is that whenever you distribute Worserfish in some way,
 you MUST always include the license and the full source code (or a pointer to
 where the source code can be found) to generate the exact binary you are
 distributing. If you make any changes to the source code, these changes must
@@ -122,8 +103,8 @@ also be made available under GPL v3.
 
 ## Acknowledgements
 
-Stockfish uses neural networks trained on [data provided by the Leela Chess Zero
-project][lc0-data-link], which is made available under the [Open Database License][odbl-link] (ODbL).
+Worserfish relies heavily on [Stockfish][https://github.com/official-stockfish/Stockfish], which uses neural networks trained on [data provided by the Leela Chess Zero
+project][lc0-data-link], made available under the [Open Database License][odbl-link] (ODbL).
 
 
 [authors-link]:       https://github.com/official-stockfish/Stockfish/blob/master/AUTHORS
