@@ -95,9 +95,9 @@ project][lc0-data-link], made available under the [Open Database License][odbl-l
 [license-link]:       https://github.com/official-stockfish/Stockfish/blob/master/Copying.txt
 [programming-link]:   https://www.chessprogramming.org/Main_Page
 [programmingsf-link]: https://www.chessprogramming.org/Stockfish
-[readme-link]:        https://github.com/official-stockfish/Stockfish/blob/master/README.md
-[release-link]:       https://github.com/official-stockfish/Stockfish/releases/latest
-[src-link]:           https://github.com/official-stockfish/Stockfish/tree/master/src
+[readme-link]:        https://github.com/sklbz/Worserfish/blob/master/README.md
+[release-link]:       https://github.com/sklbz/Worserfish/releases/latest
+[src-link]:           https://github.com/sklbz/Worserfish/tree/master/src
 [stockfish128-logo]:  https://stockfishchess.org/images/logo/icon_128x128.png
 [uci-link]:           https://backscattering.de/chess/uci/
 [website-link]:       https://stockfishchess.org
