@@ -6,27 +6,6 @@
 
   A free and strong UCI misère chess engine.
   <br>
-  <strong>[Explore Stockfish docs »][wiki-link]</strong>
-  <br>
-  <br>
-  [Report bug][issue-link]
-  ·
-  [Open a discussion][discussions-link]
-  ·
-  [Discord][discord-link]
-  ·
-  [Blog][website-blog-link]
-
-  [![Build][build-badge]][build-link]
-  [![License][license-badge]][license-link]
-  <br>
-  [![Release][release-badge]][release-link]
-  [![Commits][commits-badge]][commits-link]
-  <br>
-  [![Website][website-badge]][website-link]
-  [![Fishtest][fishtest-badge]][fishtest-link]
-  [![Discord][discord-badge]][discord-link]
-
 </div>
 
 ## Overview
