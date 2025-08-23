@@ -20,7 +20,7 @@ See also the Stockfish [documentation][wiki-usage-link] for further usage help, 
 
 ## How it works
 
-Worserfish is based on Stockfish, but tries to lose, assuming his opposent is as well.
+Worserfish is based on Stockfish, but tries to lose, assuming his opposent is as well, making losing against it as hard as winning against Stockfish.
 
 It will not just blunder easy mates, but instead will try to force selfmate.
 
