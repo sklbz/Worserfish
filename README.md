@@ -2,7 +2,7 @@
 
   [![Stockfish][stockfish128-logo]][website-link]
 
-  <h3>Stockfish</h3>
+  <h3>Worserfish</h3>
 
   A free and strong UCI misère chess engine.
   <br>
@@ -31,19 +31,19 @@
 
 ## Overview
 
-Stockfish **does not include a graphical user interface** (GUI) that is required
+Worserfish **does not include a graphical user interface** (GUI) that is required
 to display a chessboard and to make it easy to input moves. These GUIs are
-developed independently from Stockfish and are available online. **Read the
+developed independently from Worserfish and are available online. **Read the
 documentation for your GUI** of choice for information about how to use
-Stockfish with it.
+Worserfish with it.
 
-See also the Stockfish [documentation][wiki-usage-link] for further usage help.
+See also the Stockfish [documentation][wiki-usage-link] for further usage help, as it works the exact same way.
 
 ## How it works
 
 Worserfish is based on Stockfish, but tries to lose, assuming his opposent is as well.
 
-It will not just blunder easy mates, it will try to force selfmate.
+It will not just blunder easy mates, but instead will try to force selfmate.
 
 ## Files
 
@@ -53,8 +53,6 @@ This distribution of Worserfish consists of the following files:
 
   * [Copying.txt][license-link], a text file containing the GNU General Public
     License version 3.
-
-  * [AUTHORS][authors-link], a text file with the list of authors for the project.
 
   * [src][src-link], a subdirectory containing the full source code, including a
     Makefile that can be used to compile Stockfish on Unix-like systems.
